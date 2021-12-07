@@ -76,6 +76,19 @@
         <h1>Assignment 2</h1>
     </header>
     <main>
+        <script>
+            $("document").ready(() => {
+                $.get("Portfolio.html").then((sData) => {
+                    $("#portfolio").append(marked(sData));
+                });
+                $.get("contact.md").then((sData) => {
+                    $("#contact_markdown").append(marked(sData));
+                });
+                $.get("about.md").then((sData) => {
+                    $("#about").append(marked(sData));
+                });
+            });
+        </script>
         <p><section id="section_1"></section> </br></p> 
         <p><section id="section_2"></section> </br></p>
         <p><section id="section_3"></section> </br></p>
