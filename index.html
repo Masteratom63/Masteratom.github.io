@@ -96,7 +96,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.js"></script>
     <script>
         $("document").ready(() => {
-            $.get("Portfolio.md").then((sData) => {
+            $.get("portfolio.md").then((sData) => {
                 $("#portfolio").append(marked(sData));
             });
             $.get("contact.md").then((sData) => {
