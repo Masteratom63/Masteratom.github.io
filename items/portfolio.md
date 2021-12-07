@@ -7,3 +7,4 @@ Some of them are listed below: </br>
 For UX 211 - Graphic Design Studio we learned how to use Adobe Illustrator.</br>
 We created many different basic designs using it.
 Some of them are: 
+<img src="Patel_Twitter_logo.png">
