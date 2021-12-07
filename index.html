@@ -78,7 +78,7 @@
                 </ul>
             </div>
         </nav>
-        <h1>Assignment 2</h1>
+        <h1>Portfolio Assignment</h1>
     </header>
     <main>
         <p><section id="home"></section> </br></p>
@@ -96,7 +96,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.js"></script>
     <script>
         $("document").ready(() => {
-            $.get("Portfolio.html").then((sData) => {
+            $.get("Portfolio.md").then((sData) => {
                 $("#portfolio").append(marked(sData));
             });
             $.get("contact.md").then((sData) => {
